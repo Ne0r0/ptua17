@@ -19,6 +19,6 @@ def available_email(email):
 email_input = input(f"Ender an email address: ")
 
 if available_email(email_input):
-    print("El. pašto adresas yra galiojantis.")
+    print("email address is valid.")
 else:
-    print("El. pašto adresas negaliojantis.")
+    print("email address is not valid.")
